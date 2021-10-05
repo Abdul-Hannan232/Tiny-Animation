@@ -1,9 +1,6 @@
 import * as React from 'react';
-import { styled } from '@mui/material/styles';
-import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
-import useWebAnimations from '@wellyshen/use-web-animations';
 
 const styleHeader = {
     marginBottom: "2%",
@@ -13,11 +10,7 @@ const styleHeader = {
 
 
 function Header() {
-    const {ref} = useWebAnimations({
-        keyframes: [
-
-        ]
-    })
+    
     return (
         <Paper elevation={1} >
             <Grid className="linear" container justifyContent="center" style={styleHeader} >
