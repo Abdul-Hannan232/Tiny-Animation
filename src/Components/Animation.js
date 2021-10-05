@@ -26,12 +26,10 @@ export default function Animation() {
         {
             setPlay(play+1);
             getAnimation().pause();
-            console.log(play);
         }
         else{
             setPlay(play-1);
             getAnimation().play();
-            console.log(play);
         }
     }
 
