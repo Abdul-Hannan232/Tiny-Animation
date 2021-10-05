@@ -12,12 +12,13 @@ export default function Animation() {
     const { ref, playState, getAnimation } = useWebAnimations({
         keyframes: [
             { transform: "translateY(0)" },
-            { transform: "translateY(15px)" },
+            { transform: "translateY(-35px)" },
             { transform: "translateY(0)" }
         ],
         animationOptions: {
-            duration: 1000,
+            duration: 4000,
             iterations: Infinity,
+            easing: "ease-in-out",
         }
     });
 
