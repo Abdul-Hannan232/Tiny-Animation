@@ -1,38 +1,623 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@keyframes rainbow1 {
+  0% {
+    color: #ff0000;
+  }
+  8.33% {
+    color: #ff8000;
+  }
+  16.66% {
+    color: #ffff00;
+  }
+  24.99% {
+    color: #80ff00;
+  }
+  33.32% {
+    color: #00ff00;
+  }
+  41.65% {
+    color: #00ff80;
+  }
+  49.98% {
+    color: #00ffff;
+  }
+  58.31% {
+    color: #0080ff;
+  }
+  66.64% {
+    color: #0000ff;
+  }
+  74.97% {
+    color: #8000ff;
+  }
+  83.30% {
+    color: #ff00ff;
+  }
+  91.63% {
+    color: #ff2592;
+  }
+  100% {
+    color: #b30059;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@keyframes rainbow2 {
+  0% {
+    color: #b30059;
   }
-  to {
-    transform: rotate(360deg);
+  8.33% {
+    color: #ff0000;
   }
+  16.66% {
+    color: #ff8000;
+  }
+  24.99% {
+    color: #ffff00;
+  }
+  33.32% {
+    color: #80ff00;
+  }
+  41.65% {
+    color: #00ff00;
+  }
+  49.98% {
+    color: #00ff80;
+  }
+  58.31% {
+    color: #00ffff;
+  }
+  66.64% {
+    color: #0080ff;
+  }
+  74.97% {
+    color: #0000ff;
+  }
+  83.30% {
+    color: #8000ff;
+  }
+  91.63% {
+    color: #ff00ff;
+  }
+  100% {
+    color: #ff2592;
+  }
+}
+@keyframes rainbow3 {
+  0% {
+    color: #ff2592;
+  }
+  8.33% {
+    color: #b30059;
+  }
+  16.66% {
+    color: #ff0000;
+  }
+  24.99% {
+    color: #ff8000;
+  }
+  33.32% {
+    color: #ffff00;
+  }
+  41.65% {
+    color: #80ff00;
+  }
+  49.98% {
+    color: #00ff00;
+  }
+  58.31% {
+    color: #00ff80;
+  }
+  66.64% {
+    color: #00ffff;
+  }
+  74.97% {
+    color: #0080ff;
+  }
+  83.30% {
+    color: #0000ff;
+  }
+  91.63% {
+    color: #8000ff;
+  }
+  100% {
+    color: #ff00ff;
+  }
+}
+@keyframes rainbow4 {
+  0% {
+    color: #ff00ff;
+  }
+  8.33% {
+    color: #ff2592;
+  }
+  16.66% {
+    color: #b30059;
+  }
+  24.99% {
+    color: #ff0000;
+  }
+  33.32% {
+    color: #ff8000;
+  }
+  41.65% {
+    color: #ffff00;
+  }
+  49.98% {
+    color: #80ff00;
+  }
+  58.31% {
+    color: #00ff00;
+  }
+  66.64% {
+    color: #00ff80;
+  }
+  74.97% {
+    color: #00ffff;
+  }
+  83.30% {
+    color: #0080ff;
+  }
+  91.63% {
+    color: #0000ff;
+  }
+  100% {
+    color: #8000ff;
+  }
+}
+ 
+@keyframes rainbow5 {
+  0% {
+    color: #8000ff;
+  }
+  8.33% {
+    color: #ff00ff;
+  }
+  16.66% {
+    color: #ff2592;
+  }
+  24.99% {
+    color: #b30059;
+  }
+  33.32% {
+    color: #ff0000;
+  }
+  41.65% {
+    color: #ff8000;
+  }
+  49.98% {
+    color: #ffff00;
+  }
+  58.31% {
+    color: #80ff00;
+  }
+  66.64% {
+    color: #00ff00;
+  }
+  74.97% {
+    color: #00ff80;
+  }
+  83.30% {
+    color: #00ffff;
+  }
+  91.63% {
+    color: #0080ff;
+  }
+  100% {
+    color: #0000ff;
+  }
+}
+ 
+@keyframes rainbow6 {
+  0% {
+    color: #0000ff;
+  }
+  8.33% {
+    color: #8000ff;
+  }
+  16.66% {
+    color: #ff00ff;
+  }
+  24.99% {
+    color: #ff2592;
+  }
+  33.32% {
+    color: #b30059;
+  }
+  41.65% {
+    color: #ff0000;
+  }
+  49.98% {
+    color: #ff8000;
+  }
+  58.31% {
+    color: #ffff00;
+  }
+  66.64% {
+    color: #80ff00;
+  }
+  74.97% {
+    color: #00ff00;
+  }
+  83.30% {
+    color: #00ff80;
+  }
+  91.63% {
+    color: #00ffff;
+  }
+  100% {
+    color: #0080ff;
+  }
+}
+ 
+@keyframes rainbow7 {
+  0% {
+    color: #0080ff;
+  }
+  8.33% {
+    color: #0000ff;
+  }
+  16.66% {
+    color: #8000ff;
+  }
+  24.99% {
+    color: #ff00ff;
+  }
+  33.32% {
+    color: #ff2592;
+  }
+  41.65% {
+    color: #b30059;
+  }
+  49.98% {
+    color: #ff0000;
+  }
+  58.31% {
+    color: #ff8000;
+  }
+  66.64% {
+    color: #ffff00;
+  }
+  74.97% {
+    color: #80ff00;
+  }
+  83.30% {
+    color: #00ff00;
+  }
+  91.63% {
+    color: #00ff80;
+  }
+  100% {
+    color: #00ffff;
+  }
+}
+ 
+@keyframes rainbow8 {
+  0% {
+    color: #00ffff;
+  }
+  8.33% {
+    color: #0080ff;
+  }
+  16.66% {
+    color: #0000ff;
+  }
+  24.99% {
+    color: #8000ff;
+  }
+  33.32% {
+    color: #ff00ff;
+  }
+  41.65% {
+    color: #ff2592;
+  }
+  49.98% {
+    color: #b30059;
+  }
+  58.31% {
+    color: #ff0000;
+  }
+  66.64% {
+    color: #ff8000;
+  }
+  74.97% {
+    color: #ffff00;
+  }
+  83.30% {
+    color: #80ff00;
+  }
+  91.63% {
+    color: #00ff00;
+  }
+  100% {
+    color: #00ff80;
+  }
+}
+ 
+@keyframes rainbow9 {
+  0% {
+    color: #00ff80;
+  }
+  8.33% {
+    color: #00ffff;
+  }
+  16.66% {
+    color: #0080ff;
+  }
+  24.99% {
+    color: #0000ff;
+  }
+  33.32% {
+    color: #8000ff;
+  }
+  41.65% {
+    color: #ff00ff;
+  }
+  49.98% {
+    color: #ff2592;
+  }
+  58.31% {
+    color: #b30059;
+  }
+  66.64% {
+    color: #ff0000;
+  }
+  74.97% {
+    color: #ff8000;
+  }
+  83.30% {
+    color: #ffff00;
+  }
+  91.63% {
+    color: #80ff00;
+  }
+  100% {
+    color: #00ff00;
+  }
+}
+ 
+@keyframes rainbow10 {
+  0% {
+    color: #00ff00;
+  }
+  8.33% {
+    color: #00ff80;
+  }
+  16.66% {
+    color: #00ffff;
+  }
+  24.99% {
+    color: #0080ff;
+  }
+  33.32% {
+    color: #0000ff;
+  }
+  41.65% {
+    color: #8000ff;
+  }
+  49.98% {
+    color: #ff00ff;
+  }
+  58.31% {
+    color: #ff2592;
+  }
+  66.64% {
+    color: #b30059;
+  }
+  74.97% {
+    color: #ff0000;
+  }
+  83.30% {
+    color: #ff8000;
+  }
+  91.63% {
+    color: #ffff00;
+  }
+  100% {
+    color: #80ff00;
+  }
+}
+ 
+@keyframes rainbow11 {
+  0% {
+    color: #80ff00;
+  }
+  8.33% {
+    color: #00ff00;
+  }
+  16.66% {
+    color: #00ff80;
+  }
+  24.99% {
+    color: #00ffff;
+  }
+  33.32% {
+    color: #0080ff;
+  }
+  41.65% {
+    color: #0000ff;
+  }
+  49.98% {
+    color: #8000ff;
+  }
+  58.31% {
+    color: #ff00ff;
+  }
+  66.64% {
+    color: #ff2592;
+  }
+  74.97% {
+    color: #b30059;
+  }
+  83.30% {
+    color: #ff0000;
+  }
+  91.63% {
+    color: #ff8000;
+  }
+  100% {
+    color: #ffff00;
+  }
+}
+ 
+@keyframes rainbow12 {
+  0% {
+    color: #ffff00;
+  }
+  8.33% {
+    color: #80ff00;
+  }
+  16.66% {
+    color: #00ff00;
+  }
+  24.99% {
+    color: #00ff80;
+  }
+  33.32% {
+    color: #00ffff;
+  }
+  41.65% {
+    color: #0080ff;
+  }
+  49.98% {
+    color: #0000ff;
+  }
+  58.31% {
+    color: #8000ff;
+  }
+  66.64% {
+    color: #ff00ff;
+  }
+  74.97% {
+    color: #ff2592;
+  }
+  83.30% {
+    color: #b30059;
+  }
+  91.63% {
+    color: #ff0000;
+  }
+  100% {
+    color: #ff8000;
+  }
+}
+ 
+@keyframes rainbow13 {
+  0% {
+    color: #ff8000;
+  }
+  8.33% {
+    color: #ffff00;
+  }
+  16.66% {
+    color: #80ff00;
+  }
+  24.99% {
+    color: #00ff00;
+  }
+  33.32% {
+    color: #00ff80;
+  }
+  41.65% {
+    color: #00ffff;
+  }
+  49.98% {
+    color: #0080ff;
+  }
+  58.31% {
+    color: #0000ff;
+  }
+  66.64% {
+    color: #8000ff;
+  }
+  74.97% {
+    color: #ff00ff;
+  }
+  83.30% {
+    color: #ff2592;
+  }
+  91.63% {
+    color: #b30059;
+  }
+  100% {
+    color: #ff0000;
+  }
+}
+ 
+
+
+.rainbow1{
+  color: red;
+  animation-name: rainbow1;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+.rainbow2{
+  color: rgb(0, 255, 0);
+  animation-name: rainbow2;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+.rainbow3{
+  color: blue;
+  animation-name: rainbow3;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+.rainbow4{
+  color: rgb(241, 0, 229);
+  animation-name: rainbow4;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+.rainbow5{
+  color: red;
+  animation-name: rainbow5;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+.rainbow6{
+  color: rgb(0, 255, 0);
+  animation-name: rainbow6;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+.rainbow7{
+  color: blue;
+  animation-name: rainbow7;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+.rainbow8{
+  color: rgb(241, 0, 229);
+  animation-name: rainbow8;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+.rainbow9{
+  color: red;
+  animation-name: rainbow9;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+.rainbow10{
+  color: rgb(0, 255, 0);
+  animation-name: rainbow10;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+.rainbow11{
+  color: blue;
+  animation-name: rainbow11;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+.rainbow12{
+  color: rgb(241, 0, 229);
+  animation-name: rainbow12;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+.rainbow13{
+  color: red;
+  animation-name: rainbow13;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
 }
